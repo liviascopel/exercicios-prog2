@@ -27,9 +27,9 @@ int main () {
 }
 
 void ImprimeInvertido(char* string) {
-    if (*string == '\0')
+    if (*string == '\0') // o ponteiro aponta para o primeiro byte do bloco
         return;
     
-    ImprimeInvertido(string + 1);
+    ImprimeInvertido(string + 1); //pula para o próximo bloco
     printf("%c", *string);
 }
