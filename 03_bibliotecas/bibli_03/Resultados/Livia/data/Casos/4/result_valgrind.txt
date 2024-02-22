@@ -1,0 +1,15 @@
+==225045== Memcheck, a memory error detector
+==225045== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==225045== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==225045== Command: Resultados/Livia/data/prog Resultados/Livia/data/Casos/4
+==225045== Parent PID: 225044
+==225045== 
+==225045== 
+==225045== HEAP SUMMARY:
+==225045==     in use at exit: 0 bytes in 0 blocks
+==225045==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==225045== 
+==225045== All heap blocks were freed -- no leaks are possible
+==225045== 
+==225045== For lists of detected and suppressed errors, rerun with: -s
+==225045== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
