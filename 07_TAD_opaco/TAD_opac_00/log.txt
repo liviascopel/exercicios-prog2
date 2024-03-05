@@ -1,0 +1,215 @@
+Rodando o script do Aluno - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+#######################################
+ALUNO: Livia
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Livia:
+ - Diretório Resultados/Livia criado com sucesso!
+ - Diretório Resultados/Livia/circulo criado com sucesso!
+ - Diretório Resultados/Livia/main criado com sucesso!
+ - Diretório Resultados/Livia/ponto criado com sucesso!
+ - Diretório Resultados/Livia/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Livia/circulo.c' encontrado!
+ - Arquivo esperado 'Respostas/Livia/circulo.h' encontrado!
+ - Arquivo esperado 'Respostas/Livia/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Livia/ponto.c' encontrado!
+ - Arquivo esperado 'Respostas/Livia/ponto.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta circulo:
+ - Copiando os Casos de teste para a pasta Resultados/Livia/circulo
+ - Copiando os 'Respostas/Livia/*.h' do aluno para a pasta Resultados/Livia/circulo
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Livia/circulo
+ - Copiando os 'Respostas/Livia/*.c' do aluno para a pasta Resultados/Livia/circulo
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Livia/main
+ - Copiando os 'Respostas/Livia/*.h' do aluno para a pasta Resultados/Livia/main
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Livia/main
+ - Copiando os 'Respostas/Livia/*.c' do aluno para a pasta Resultados/Livia/main
+ - Pasta ponto:
+ - Copiando os Casos de teste para a pasta Resultados/Livia/ponto
+ - Copiando os 'Respostas/Livia/*.h' do aluno para a pasta Resultados/Livia/ponto
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Livia/ponto
+ - Copiando os 'Respostas/Livia/*.c' do aluno para a pasta Resultados/Livia/ponto
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Livia/completo
+ - Copiando os 'Respostas/Livia/*.h' do aluno para a pasta Resultados/Livia/completo
+ - Copiando os 'Respostas/Livia/*.c' do aluno para a pasta Resultados/Livia/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta circulo:
+ - Compilando o arquivo circulo.c do aluno, gerando o circulo.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Compilando o arquivo ponto.c do aluno, gerando o ponto.o
+ - Arquivo de output gerado: Resultados/Livia/circulo/result_compilation.txt.
+ - Pasta main:
+ - Compilando o arquivo circulo.c do aluno, gerando o circulo.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Compilando o arquivo ponto.c do aluno, gerando o ponto.o
+ - Arquivo de output gerado: Resultados/Livia/main/result_compilation.txt.
+ - Pasta ponto:
+ - Compilando o arquivo circulo.c do aluno, gerando o circulo.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Compilando o arquivo ponto.c do aluno, gerando o ponto.o
+ - Arquivo de output gerado: Resultados/Livia/ponto/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo circulo.c do aluno, gerando o circulo.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Compilando o arquivo ponto.c do aluno, gerando o ponto.o
+ - Arquivo de output gerado: Resultados/Livia/completo/result_compilation.txt.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Livia:
+ - Copiando o Gabarito-obj/circulo.o para a pasta Resultados/Livia/main
+ - Copiando o Gabarito-obj/circulo.o para a pasta Resultados/Livia/ponto
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Livia/circulo
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Livia/ponto
+ - Copiando o Gabarito-obj/ponto.o para a pasta Resultados/Livia/circulo
+ - Copiando o Gabarito-obj/ponto.o para a pasta Resultados/Livia/main
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta circulo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) circulo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Livia/circulo/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Livia/main/result_linking.txt
+ - Pasta ponto:
+ - Gerando o binário prog linkando com o(s) arquivo(s) ponto/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Livia/ponto/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Livia/completo/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta circulo / Caso 1:
+ - Arquivo de output gerado: Resultados/Livia/circulo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta circulo / Caso 2:
+ - Arquivo de output gerado: Resultados/Livia/circulo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta circulo / Caso 3:
+ - Arquivo de output gerado: Resultados/Livia/circulo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta circulo / Caso 4:
+ - Arquivo de output gerado: Resultados/Livia/circulo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta circulo / Caso 5:
+ - Arquivo de output gerado: Resultados/Livia/circulo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta circulo / Caso 6:
+ - Arquivo de output gerado: Resultados/Livia/circulo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Livia/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Livia/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Livia/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/Livia/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/Livia/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 6:
+ - Arquivo de output gerado: Resultados/Livia/main/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta ponto / Caso 1:
+ - Arquivo de output gerado: Resultados/Livia/ponto/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta ponto / Caso 2:
+ - Arquivo de output gerado: Resultados/Livia/ponto/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta ponto / Caso 3:
+ - Arquivo de output gerado: Resultados/Livia/ponto/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta ponto / Caso 4:
+ - Arquivo de output gerado: Resultados/Livia/ponto/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta ponto / Caso 5:
+ - Arquivo de output gerado: Resultados/Livia/ponto/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta ponto / Caso 6:
+ - Arquivo de output gerado: Resultados/Livia/ponto/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Livia/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Livia/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Livia/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/Livia/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/Livia/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 6:
+ - Arquivo de output gerado: Resultados/Livia/completo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
+ - Resultado para o saida.txt: Ok!
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Nome 0: Livia
+ - Arquivos Corretos: 5 de 5 / Nota 10.00
+ - Compilações Corretas: 12 de 12 / Nota 10.00
+ - Linkagens Corretas: 4 de 4 / Nota 10.00
+ - Resultados Corretos circulo: 6 de 6 / Nota 10.00
+ - Valgrinds Corretos circulo: 6 de 6 / Nota 10.00
+ - Resultados Corretos main: 6 de 6 / Nota 10.00
+ - Valgrinds Corretos main: 6 de 6 / Nota 10.00
+ - Resultados Corretos ponto: 6 de 6 / Nota 10.00
+ - Valgrinds Corretos ponto: 6 de 6 / Nota 10.00
+ - Resultados Corretos completo: 6 de 6 / Nota 10.00
+ - Valgrinds Corretos completo: 6 de 6 / Nota 10.00
+ - Soma das notas do Livia: 110.000
+ - Campos Considerados: 11
+ - Média do Livia: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
