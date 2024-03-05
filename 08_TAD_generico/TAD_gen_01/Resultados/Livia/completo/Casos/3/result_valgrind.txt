@@ -1,0 +1,15 @@
+==117315== Memcheck, a memory error detector
+==117315== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==117315== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==117315== Command: Resultados/Livia/completo/prog Resultados/Livia/completo/Casos/3
+==117315== Parent PID: 117314
+==117315== 
+==117315== 
+==117315== HEAP SUMMARY:
+==117315==     in use at exit: 0 bytes in 0 blocks
+==117315==   total heap usage: 4 allocs, 4 frees, 8,228 bytes allocated
+==117315== 
+==117315== All heap blocks were freed -- no leaks are possible
+==117315== 
+==117315== For lists of detected and suppressed errors, rerun with: -s
+==117315== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
